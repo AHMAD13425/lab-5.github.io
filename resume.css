@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+  .profile {
+    text-align: center;
+
+    background-color: rgb(65, 127, 141);
+  }
+  
+  .profile img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  .education
+  
+  {
+    background-color: rgb(14, 37, 73)
+  }
+.experience
+{
+    background-color: rgb(69, 68, 5)
+}
+.about
+{
+    background-color: rgb(191, 141, 49)
+}
+.skills
+{
+    background-color: rgb(187, 181, 6)
+}
+  .about h3,
+  .education h3,
+  .experience h3,
+  .skills h3 {
+    margin-top: 0;
+  }
+  
+  .about p {
+    text-align: justify;
+  }
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
